@@ -1,0 +1,18 @@
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+body {
+    font-family: ariial, sans-serif;
+    font-size: 14px;
+}
+h1 {
+    margin: auto;
+}
+li {
+    display: inline;
+  }

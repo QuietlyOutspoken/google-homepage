@@ -7,12 +7,41 @@
 }
 
 body {
-    font-family: ariial, sans-serif;
-    font-size: 14px;
-}
-h1 {
-    margin: auto;
-}
-li {
-    display: inline;
+    font-family: arial,sans-serif;
+    margin: 0;
+    font-size: 13px;
   }
+.header{
+    font-size: 13px;
+    margin-top: 24px;
+    margin-left: 18px;
+    margin-right: 10px;
+  }
+  ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+  }
+  .headerleft {
+      float: left;
+      padding-right: 15px;  
+  }
+  .headerright{
+    float: right;
+    padding-left: 15px;
+  }
+  a{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(53, 53, 53);
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  #apps{
+    position: relative;
+    width: 20px;
+    top: -3px;
+    opacity: 0.75;
+    padding-left: 0px;
+}
